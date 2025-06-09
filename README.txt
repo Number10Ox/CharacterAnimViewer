@@ -52,7 +52,7 @@ look shinier. I'd also probably breakup the USS so cards had their own and
 define a struct for the names instead of all the constants in the popup class.
 5. Look into using Unity Playables instead of of the solution with a simple
 AnimationController and an AnimationOverrideController
-
+6. If this were a full game project I'd have multiple systems and libraries handling logging, pop ups, asset loading, preloading, etc. I'd not create one-offs but reusable components. I'd be careful about handling and reporting authoring related mistakes with tuning (in this case scriptable objects) and design data.
 
 
 
