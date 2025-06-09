@@ -1,0 +1,15 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/CharacterAssetViewer.uss?fileID=7433441132597879392&amp;guid=0dc2ff9243d5a46f0a8bdde1642636c7&amp;type=3#CharacterAssetViewer" />
+    <engine:VisualElement name="character-anim-viewer" style="flex-grow: 1; flex-direction: column; background-color: black; padding: 16px;">
+        <engine:Label text="Explore animations" name="title-label" style="unity-font-style: bold; font-size: 20px; color: white; margin-bottom: 8px;" />
+        <engine:VisualElement name="main-row" style="flex-grow: 1; flex-direction: row;">
+            <engine:VisualElement name="left-content" style="width: 65%; flex-direction: column; margin-right: 12px;">
+                <engine:Label text="All animations" name="header-title" style="unity-font-style: bold; font-size: 14px; color: white; margin-bottom: 6px;" />
+                <engine:VisualElement name="category-tabs" style="flex-direction: row; flex-wrap: wrap; gap: 8px; margin-bottom: 12px;" />
+                <engine:Label name="selected-category-title" text="Dancing" style="unity-font-style: bold; color: white; margin-bottom: 4px;" />
+                <engine:ScrollView name="animation-scroll-list" style="flex-grow: 1;" />
+            </engine:VisualElement>
+            <engine:VisualElement name="character-viewport" style="width: 35%; background-color: rgba(0, 0, 0, 0);" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

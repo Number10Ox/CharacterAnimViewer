@@ -1,0 +1,109 @@
+#character-anim-viewer {
+    background-color: black;
+    flex-direction: column;
+    padding: 16px;
+}
+
+#title-label {
+    unity-font-style: bold;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 8px;
+}
+
+#main-row {
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+#left-content {
+    flex-direction: column;
+    width: 65%;
+    margin-right: 12px;
+}
+
+#header-title {
+    unity-font-style: bold;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 6px;
+}
+
+#category-tabs {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+#selected-category-title {
+    unity-font-style: bold;
+    color: white;
+    margin-bottom: 4px;
+}
+
+#animation-scroll-list {
+    flex-grow: 1;
+    overflow-y: auto;
+    flex-direction: column;
+}
+
+#character-viewport {
+    width: 35%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.tab-button {
+    background-color: #2d2f36;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 6px 14px;
+    margin: 4px;
+    border-width: 0;
+    unity-font-style: normal;
+    font-size: 14px;
+}
+
+.tab-button:hover {
+    background-color: #3d404a;
+}
+
+.tab-selected {
+    background-color: #3b82f6; /* blue-500 */
+    color: white;
+    box-shadow: 0 0 0 2px #2563eb;
+}
+
+.animation-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #1c1f26;
+    border-radius: 2px;
+    padding: 3px 4px;
+    margin-bottom: 2px;
+    flex-shrink: 0;
+    height: auto;
+    min-height: auto;
+}
+
+.animation-title {
+    color: #ffffff;
+    font-size: 16px;
+    unity-font-style: bold;
+    margin-bottom: 2px;
+    flex-shrink: 0;
+}
+
+.animation-subtitle {
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.animation-card-selected {
+    background-color: #3b82f6; /* or any color to highlight */
+    border: 1px solid #ffffff;
+}
+
+
